@@ -1,0 +1,40 @@
+{
+  "createdAt": "2017-10-08T05:11:59.892Z",
+  "version": "9.14.64.305",
+  "kind": "ARC#AllDataExport",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:8080/helloOAuth",
+      "headers": "Authorization: bearer  f5b5cf56-a72d-4180-96bf-a9dc3b86027b",
+      "name": "Hello Get",
+      "type": "saved",
+      "updated": 1507439070950,
+      "id": "Hello%20Get/http%3A%2F%2Flocalhost%3A8080%2FhelloOAuth/GET/9fc0f745-7d8d-415e-b0fd-dcd7b701d256",
+      "_referenceLegacyProject": "9fc0f745-7d8d-415e-b0fd-dcd7b701d256",
+      "kind": "ARC#RequestData"
+    },
+    {
+      "type": "saved",
+      "headers": "Authorization: Basic  YWNtZTphY21lc2VjcmV0\nContent-Type: application/x-www-form-urlencoded",
+      "method": "POST",
+      "name": "Token Request",
+      "payload": "grant_type=password&username=user&password=password1",
+      "url": "http://localhost:8080/oauth/token",
+      "updated": 1507439284395,
+      "id": "Token%20Request/http%3A%2F%2Flocalhost%3A8080%2Foauth%2Ftoken/POST/9fc0f745-7d8d-415e-b0fd-dcd7b701d256",
+      "_referenceLegacyProject": "9fc0f745-7d8d-415e-b0fd-dcd7b701d256",
+      "kind": "ARC#RequestData"
+    }
+  ],
+  "projects": [
+    {
+      "name": "SimpleOAauth2",
+      "order": 0,
+      "created": 1507439070901,
+      "updated": 1507439070927,
+      "_referenceId": "9fc0f745-7d8d-415e-b0fd-dcd7b701d256",
+      "kind": "ARC#ProjectData"
+    }
+  ]
+}
